@@ -13,7 +13,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - Configuration
+  - {t: Numpad, h: toggle}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -64,7 +64,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '=', s: +}
   - {t: '-', s: _}
-  - {t: Numpad, h: toggle}
+  - Configuration
   Navigation:
   - {t: '`', s: '~'}
   - F1
@@ -143,7 +143,7 @@ layers:
   - KP DIVIDE
   - KP MULTIPLY
   - KP MINUS
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Numpad, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -184,17 +184,17 @@ layers:
   - KP ENTER
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&SPACE'
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-space$$
+  - '&ENTER'
   - KP 0
   - KP DOT
-  - {t: Numpad, h: toggle}
+  - $$mdi:keyboard-space$$
   Configuration:
   - '~'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -208,7 +208,7 @@ layers:
   - F8
   - F9
   - F10
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
@@ -259,4 +259,4 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
