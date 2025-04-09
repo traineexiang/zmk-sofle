@@ -63,7 +63,7 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
-            display-name = "Navigation";
+            display-name = "Navigate";
         };
 
         layer_2 {
@@ -89,7 +89,7 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
-            display-name = "Configuration";
+            display-name = "Config";
         };
     };
 };
