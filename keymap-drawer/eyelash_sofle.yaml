@@ -188,10 +188,10 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&SPACE'
+  - $$mdi:keyboard-space$$
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '&ENTER'
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - KP 0
   - KP DOT
   - $$mdi:keyboard-space$$
