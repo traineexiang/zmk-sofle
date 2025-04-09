@@ -50,7 +50,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-            display-name = "LAYER0";
+            display-name = "Default";
         };
 
         layer_1 {
@@ -62,8 +62,8 @@
 &kp C_MUTE  &trans      &trans          &trans           &trans           &trans             &mkp LCLK        &kp BACKSPACE          &kp ENTER           &trans      &trans     &trans
             >;
 
-            display-name = "Default";
             sensor-bindings = <&scroll_encoder>;
+            display-name = "Navigation";
         };
 
         layer_2 {
@@ -75,8 +75,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &mkp LCLK    &kp BACKSPACE      &kp SPACE     &kp KP_N0      &kp KP_DOT  &tog 2      
             >;
 
-            display-name = "Numpad"
             sensor-bindings = <&scroll_encoder>;
+            display-name = "Numpad"
         };
 
             >;
@@ -89,8 +89,8 @@
 &trans     &trans           &trans          &trans            &trans            &trans                &trans               &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
 
-            display-name = "Navigation"
             sensor-bindings = <&scroll_encoder>;
+            display-name = "Configuration"
         };
     };
 };
