@@ -59,7 +59,7 @@
 &kp TAB     &kp F11     &kp F12         &kp ESC          &kp PSCRN        &kp SCROLLLOCK     &mmv MOVE_DOWN   &kp PG_UP        &kp HOME         &kp UP      &kp END    &kp DEL           &kp PG_UP
 &kp CAPS    &kp TILDE   &trans          &trans           &trans           &trans             &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp PG_DN
 &kp LSHFT   &trans      &trans          &trans           &trans           &trans             &mmv MOVE_RIGHT  &kp K_APPLICATION  &rgb_ug RGB_BRD  &kp INSERT  &trans       &trans           &kp RSHFT
-&kp C_MUTE  &trans      &trans          &trans           &trans           &trans             &mkp LCLK        &kp BACKSPACE          &kp ENTER           &trans      &trans     &trans
+&kp C_MUTE  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &trans   &kp SPACE             &mkp LCLK        &kp BACKSPACE          &kp ENTER           &trans      &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
