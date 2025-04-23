@@ -55,9 +55,9 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1      &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &trans
-&kp TAB     &kp F11     &kp F12         &kp ESC          &kp PSCRN        &kp SCROLLLOCK     &mmv MOVE_DOWN   &kp PG_UP        &kp HOME         &kp UP      &kp END    &kp DEL           &kp PG_UP
-&kp CAPS    &kp TILDE   &trans          &trans           &trans           &trans             &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp PG_DN
+&kp GRAVE   &kp F1      &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &kp PG_UP
+&kp TAB     &kp F11     &kp F12         &kp ESC          &kp PSCRN        &kp SCROLLLOCK     &mmv MOVE_DOWN   &kp PG_UP        &kp HOME         &kp UP      &kp END    &kp DEL           &kp PG_DN
+&kp CAPS    &kp TILDE   &trans          &trans           &trans           &trans             &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &kp LSHFT   &trans      &trans          &trans           &trans           &trans             &mmv MOVE_RIGHT  &kp K_APPLICATION  &rgb_ug RGB_BRD  &kp INSERT  &trans       &trans           &kp RSHFT
 &kp C_MUTE  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &trans   &kp SPACE             &mkp LCLK        &kp BACKSPACE          &kp ENTER           &trans      &trans     &trans
             >;
