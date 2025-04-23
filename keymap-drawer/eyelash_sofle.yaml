@@ -78,7 +78,7 @@ layers:
   - F8
   - F9
   - F10
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PG UP
   - $$mdi:keyboard-tab$$
   - F11
   - F12
@@ -91,7 +91,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - END
   - $$mdi:backspace-reverse-outline$$
-  - PG UP
+  - PG DN
   - $$mdi:apple-keyboard-caps$$
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -104,7 +104,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '[', s: '{'}
-  - PG DN
+  - {t: ']', s: '}'}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
